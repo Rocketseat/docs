@@ -27,7 +27,7 @@ const Comunidade = props => (
         <p>Participe da comunidade da Rocketseat no Discord</p>
 
         <a href="https://rocketseat.com.br/comunidade" className="btn primary">
-          <i class="fab fa-discord" />
+          <i className="fab fa-discord" />
           Acessar comunidade
         </a>
       </div>

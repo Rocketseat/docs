@@ -28,6 +28,8 @@ const siteConfig = {
     algoliaOptions: {} // Optional, if provided by Algolia
   },
 
+  docsUrl: '',
+
   stylesheets: [
     'https://fonts.googleapis.com/css?family=Noto+Sans:400,700',
     'https://use.fontawesome.com/releases/v5.8.1/css/all.css'

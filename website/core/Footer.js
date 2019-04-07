@@ -68,10 +68,7 @@ class Footer extends React.Component {
           <div>
             <h5>Documentações</h5>
             {this.links.docs.map(link => (
-              <a
-                key={link.label}
-                href={`${this.props.config.baseUrl}docs/${link.path}`}
-              >
+              <a key={link.label} href={`/${link.path}`}>
                 {link.label}
               </a>
             ))}
