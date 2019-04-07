@@ -194,7 +194,16 @@ article .link-block i {
 }
 
 .docs-grid .item i {
-  font-size: 28px;
+  font-size: 56px;
+}
+
+.docs-grid .item h3 {
+  margin: 2rem 0 1rem;
+  color: #333;
+}
+
+.docs-grid .item p {
+  color: #999;
 }
 
 .homeContainer {
