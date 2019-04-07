@@ -1,9 +1,8 @@
 {
   "ambiente-react-native": {
     "Ambiente React Native": [
-      "ambiente-react-native/ambiente/introducao",
-      "ambiente-react-native/ambiente/editor",
-      "ambiente-react-native/ambiente/comunidade"
+      "ambiente-react-native/introducao",
+      "ambiente-react-native/editor"
     ],
     "Android": [
       "ambiente-react-native/android/windows",
@@ -28,9 +27,7 @@
     "Começando": [
       "react-native-template-basic/start/requisitos",
       "react-native-template-basic/start/estrutura",
-      "react-native-template-basic/start/instalacao",
-      "react-native-template-basic/start/edicao",
-      "react-native-template-basic/start/publicacao"
+      "react-native-template-basic/start/instalacao"
     ]
   },
   "react-native-template-advanced": {
@@ -40,21 +37,23 @@
     "Começando": [
       "react-native-template-advanced/start/requisitos",
       "react-native-template-advanced/start/estrutura",
-      "react-native-template-advanced/start/instalacao",
-      "react-native-template-advanced/start/edicao",
-      "react-native-template-advanced/start/publicacao"
+      "react-native-template-advanced/start/instalacao"
     ]
   },
   "react-native-snippets": {
     "React Native Snippets": [
       "react-native-snippets/introducao",
-      "react-native-snippets/comecando"
+      "react-native-snippets/instalacao",
+      "react-native-snippets/como-usar",
+      "react-native-snippets/snippets"
     ]
   },
   "reactjs-snippets": {
     "ReactJS Snippets": [
       "reactjs-snippets/introducao",
-      "reactjs-snippets/comecando"
+      "reactjs-snippets/instalacao",
+      "reactjs-snippets/como-usar",
+      "reactjs-snippets/snippets"
     ]
   }
 }

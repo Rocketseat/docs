@@ -76,7 +76,11 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <div className="docs-grid">
             {Docs.map(doc => (
-              <a key={doc.path} className="item" href={docsPart + doc.path}>
+              <a
+                key={doc.path}
+                className="item"
+                href={`${docsPart + doc.path}/introducao`}
+              >
                 <i className={doc.icon} />
                 <h3>{doc.title}</h3>
                 <p>{doc.description}</p>

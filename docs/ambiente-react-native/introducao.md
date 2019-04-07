@@ -12,6 +12,6 @@ Para termos um ambiente de desenvolvimento para Android iremos instalar a SDK do
 
 O ambiente Android pode ser configurado no Mac OS X, Linux e Windows. Utilize os guias abaixo de acordo com seu sistema operacional.
 
-<a class="link-block" href="/ambiente-react-native/android/windows"><i class="fab fa-windows"></i>Windows</a>
-<a class="link-block" href="/ambiente-react-native/android/linux"><i class="fab fa-linux"></i>Linux</a>
-<a class="link-block" href="/ambiente-react-native/android/macos"><i class="fab fa-apple"></i>OS X (Mac)</a>
+<a class="link-block" href="/docs/ambiente-react-native/android/windows"><i class="fab fa-windows"></i>Windows</a>
+<a class="link-block" href="/docs/ambiente-react-native/android/linux"><i class="fab fa-linux"></i>Linux</a>
+<a class="link-block" href="/docs/ambiente-react-native/android/macos"><i class="fab fa-apple"></i>OS X (Mac)</a>

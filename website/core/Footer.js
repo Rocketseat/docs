@@ -12,7 +12,7 @@ class Footer extends React.Component {
     docs: [
       {
         label: 'Ambiente React Native',
-        path: 'ambiente-react-native/ambiente/introducao'
+        path: 'ambiente-react-native/introducao'
       },
       {
         label: 'React Native Template Basic',
