@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Windows · Rocketseat Docs</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;&lt;img src=&quot;/docs/docs/assets/windows.png&quot; alt=&quot;Windows&quot;&gt;&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Windows · Rocketseat Docs"/><meta property="og:type" content="website"/><meta property="og:url" content="https://rocketseat.github.io/docs/"/><meta property="og:description" content="&lt;p&gt;&lt;img src=&quot;/docs/docs/assets/windows.png&quot; alt=&quot;Windows&quot;&gt;&lt;/p&gt;
+"/><meta property="og:image" content="https://rocketseat.github.io/docs/img/logo-rocketseat.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://rocketseat.github.io/docs/img/logo-rocketseat.svg"/><link rel="shortcut icon" href="/docs/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://unpkg.com/feather-icons"></script><script type="text/javascript" src="/js/script.js"></script><link rel="stylesheet" href="/docs/css/main.css"/><script src="/docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docs/"><img class="logo" src="/docs/img/logo.svg" alt="Rocketseat Docs"/><h2 class="headerTitleWithLogo">Rocketseat Docs</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/comunidade" target="_self">Comunidade</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Buscar" title="Buscar"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Android</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Ambiente React Native</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/ambiente/introducao">Introdução</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/ambiente/editor">Editor</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/ambiente/comunidade">Comunidade</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Android</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/docs/docs/ambiente-react-native/android/windows">Windows</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/android/linux">Linux</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/android/macos">macOS</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/android/emulador">Emulador</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">iOS</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/ios/xcode">macOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Emulando via Wi-Fi</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/emulate/android">Android</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/emulate/ios">iOS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Erros comuns</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/errors/android">Android</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/errors/ios">iOS</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/errors/android-ios">Android / iOS</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/ambiente-react-native/errors/genymotion">Genymotion</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Windows</h1></header><article><div><span><p><img src="/docs/docs/assets/windows.png" alt="Windows"></p>
+<ol>
+<li>Instale o Chocolatey e as demais dependências: <a href="#chocolatey">Instalando chocolatey</a></li>
+<li>Instale e configure a SDK do Android: <a href="#configurando-sdk-do-android-no-windows">Configurando SDK</a></li>
+<li>Instale e configure o emulador Genymotion: <a href="/docs/android/emulador">Configurando Emulador</a></li>
+</ol>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="chocolatey"></a><a href="#chocolatey" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Chocolatey</h2>
+<blockquote>
+<p>Para configurar o ambiente Android no Windows, vamos precisar instalar 4 dependências: <strong>Node, Python2, JDK e a SDK do Android.</strong></p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="instalando-chocolatey"></a><a href="#instalando-chocolatey" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalando Chocolatey</h3>
+<p>Para instalar as libs no Windows, vamos utilizar um gerenciador de pacotes do Windows chamado Chocolatey. Essa ferramenta nos possibilita instalar dependências e ferramentas no sistema com poucos comandos e tudo pelo terminal.
+Execute o prompt de comando ou powershell como administrador utilizando a tecla <kbd>Windows + X</kbd> ou clicando com o botão direito sobre o botão “Iniciar”:</p>
+<p><img src="/docs/docs/assets/ambiente-react-native/prompt.png" alt="Prompt"></p>
+<p>Agora, você deve executar os comandos abaixo de acordo com a <strong>opção que você clicou</strong></p>
+<h3><a class="anchor" aria-hidden="true" id="command-prompt"></a><a href="#command-prompt" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Command Prompt</h3>
+<p>Caso a opção que você tenha clicado tenha o nome de <strong>Command Prompt</strong>, execute o comando abaixo na janela aberta para instalar o Chocolatey:</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> @<span class="hljs-string">"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe"</span> -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command <span class="hljs-string">"iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))"</span> &amp;&amp; SET <span class="hljs-string">"PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"</span></span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="powershell"></a><a href="#powershell" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Powershell</h3>
+<p>Caso a opção tenha sido <strong>Powershell</strong>, execute o comando abaixo para verificar se você possui permissões para instalar dependências com o terminal:</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> Get-ExecutionPolicy</span>
+</code></pre>
+<p><strong>Se</strong> o retorno desse comando for <strong>“Restricted”</strong>, execute o próximo comando em seu terminal, se não, prossiga para o próximo passo:</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> Set-ExecutionPolicy AllSigned</span>
+</code></pre>
+<p>Agora, execute o seguinte comando para instalar o Chocolatey:</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(<span class="hljs-string">'https://chocolatey.org/install.ps1'</span>))</span>
+</code></pre>
+<p>Agora, teste se a instalação ocorreu corretamente executando o seguinte comando no seu terminal (nada irá acontecer, mas não deve retornar erros). Nesse passo pode ser necessário reiniciar seu terminal.</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> choco</span>
+</code></pre>
+<p>Agora vamos instalar o Node, Python2 e a JDK8 (Java Development Kit 8).</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> choco install -y nodejs.install python2 jdk8</span>
+</code></pre>
+<blockquote>
+<p>Se você tiver o NodeJS já instalado em sua máquina, certifique-se que sua versão é superior à 7 e caso esteja com o JDK instalado em sua máquina, certifique-se que sua versão seja a 8.</p>
+</blockquote>
+<p>Agora com as dependências instaladas, vamos instalar o CLI (Command Line Interface) do React Native que nos ajudará na criação e teste de novos projetos. Nesse passo você provavelmente deve reiniciar seu terminal para o comando funcionar.</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> npm install -g react-native-cli</span>
+
+// ou yarn global add react-native-cli
+</code></pre>
+<p>Se tudo ocorreu bem até aqui, você conseguirá executar o seguinte comando:</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> react-native -h</span>
+</code></pre>
+<p>Esse comando deve exibir uma lista de comandos possíveis para serem executados com o React Native CLI.</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="configurando-sdk-do-android-no-windows"></a><a href="#configurando-sdk-do-android-no-windows" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configurando SDK do Android no Windows</h2>
+<p>Crie uma pasta em um local desejado para instalação da SDK. Ex: <code>C:\Android\Sdk</code></p>
+<p><strong>Anote esse caminho para ser utilizado posteriormente</strong></p>
+<p>Acesse <a href="https://developer.android.com/studio/#downloads">https://developer.android.com/studio/#downloads</a>, na opção &quot;Command line tools only&quot; baixe a SDK referente ao seu sistema operacional.</p>
+<p>Após feito o Download, extraia o conteúdo do pacote para a pasta criada no passo anterior.</p>
+<p>Agora, no Painel de Controle do Windows, abra o item “Sistema e Segurança” ou “Sistema”, clique em “Configurações avançadas do sistema”, selecione “Variáveis de ambiente” e clique no botão “Nova variável de ambiente”, indique o nome da variável como ANDROID_HOME, adicione o caminho utilizado acima (Ex: <code>C:\Android\Sdk</code>) como segundo parâmetro e clique em OK.</p>
+<p><img src="/docs/docs/assets/ambiente-react-native/5.png" alt="Prompt"></p>
+<p>Na mesma janela de &quot;Variáveis de ambiente&quot; no Windows, clique na variável PATH e então em &quot;Editar&quot;. Haverá uma lista de caminhos e você deve adicionar esses dois novos caminhos no fim da lista:</p>
+<ol>
+<li><code>%ANDROID_HOME%\platform-tools</code></li>
+<li><code>%ANDROID_HOME%\tools</code></li>
+</ol>
+<blockquote>
+<p><strong>Se sua versão do Windows for menor que a 10 sempre coloque ponto-e-virgula &quot;;&quot; no final dos caminhos para eles não se juntarem</strong></p>
+</blockquote>
+<p>Agora, abra seu Command Prompt ou PowerShell como administrador e execute o seguinte comando:</p>
+<pre><code class="hljs css language-console"><span class="hljs-meta">$</span><span class="bash"> C:\Android\Sdk\tools\bin\sdkmanager  <span class="hljs-string">"platform-tools"</span> <span class="hljs-string">"platforms;android-27"</span> <span class="hljs-string">"build-tools;27.0.3"</span></span>
+</code></pre>
+<p><em>*Aceite todas licenças digitando <kbd>y</kbd> quando necessário.</em></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/docs/ambiente-react-native/ambiente/comunidade"><span class="arrow-prev">← </span><span>Comunidade</span></a><a class="docs-next button" href="/docs/docs/ambiente-react-native/android/linux"><span>Linux</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#chocolatey">Chocolatey</a><ul class="toc-headings"><li><a href="#instalando-chocolatey">Instalando Chocolatey</a></li><li><a href="#command-prompt">Command Prompt</a></li><li><a href="#powershell">Powershell</a></li></ul></li><li><a href="#configurando-sdk-do-android-no-windows">Configurando SDK do Android no Windows</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/docs/" class="nav-home"><img src="/docs/img/logo-white.svg" alt="Rocketseat Docs" height="40"/></a><div><h5>Documentações</h5><a href="/docs/docs/ambiente-react-native/ambiente/introducao">Ambiente React Native</a><a href="/docs/docs/react-native-template-basic/introducao">React Native Template Basic</a><a href="/docs/docs/react-native-template-advanced/introducao">React Native Template Advanced</a><a href="/docs/docs/react-native-snippets/introducao">React Native Snippets</a><a href="/docs/docs/reactjs-snippets/introducao">ReactJS Snippets</a></div><div><h5>Mais</h5><a href="https://www.rocketseat.com.br/comunidade">Comunidade</a><a href="https://rocketseat.com.br/starter">Cursos gratuitos</a><a href="https://github.com/rocketseat">Github</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/docs/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2019 Rocketseat</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'c8e36ac20fe699654da4aeda3e2bc4e9',
+                indexName: 'Rocketseat Docs',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
