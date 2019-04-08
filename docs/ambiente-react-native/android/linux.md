@@ -118,7 +118,7 @@ Em grande parte das vezes precisamos instalar algumas bibliotecas da versão 32b
 $ sudo sed -i "/\[multilib\]/,/Include/"'s/^#//' /etc/pacman.conf
 ```
 
-## Configurando SDK do Android
+## Configurando SDK do Android no Linux
 
 ![Android](assets/android-studio.png)
 

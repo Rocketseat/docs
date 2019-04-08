@@ -47,7 +47,7 @@ $ npm install -g react-native-cli
 
 O último item a ser instalado é o JDK (Java Development Kit) do Java que pode ser baixado pelo link (Após instalado, execute o .dmg e instale seguindo os passos do instalador): http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html​
 
-## Configurando SDK do Android
+## Configurando SDK do Android no macOS
 
 ![Android](assets/android-studio.png)
 

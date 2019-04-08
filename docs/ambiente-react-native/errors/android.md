@@ -54,7 +54,7 @@ Após executar esse comando, digite <kbd>y</kbd> para todas as perguntas abaixo.
 
 Esse erro geralmente acontece quando o Android Debug Bridge (adb) não está conectado com o emulador. Digite no terminal `adb devices` com o emulador aberto, se aparecer a mensagem **List of devices attached**, provavelmente este é o seu problema.
 
-Para resolver basta parar o serviço do bundle e na janela do emulador aberto verificar o **IP** do dispositivo ( basta esticar a janela e ver na descrição dela o número de IP ), depois digite o seguinte comando: `adb connect SeuIP:5555`
+Para resolver basta parar o serviço do bundle e na janela do emulador aberto verificar o **IP** do dispositivo (basta esticar a janela e ver na descrição dela o número de IP), depois digite o seguinte comando: `adb connect SeuIP:5555`
 
 Irá aparecer uma mensagem de que o dispositivo foi **conectado com sucesso!**
 

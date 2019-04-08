@@ -87,6 +87,8 @@ Esse comando deve exibir uma lista de comandos possíveis para serem executados 
 
 ## Configurando SDK do Android no Windows
 
+![Android](assets/android-studio.png)
+
 Crie uma pasta em um local desejado para instalação da SDK. Ex: `C:\Android\Sdk`
 
 **Anote esse caminho para ser utilizado posteriormente**
