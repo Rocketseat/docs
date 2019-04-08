@@ -8,7 +8,7 @@ sidebar_label: Windows
 
 1. Instale o Chocolatey e as demais dependências: [Instalando chocolatey](#chocolatey)
 2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android-no-windows)
-3. Instale e configure o emulador Genymotion: [Configurando Emulador](/docs/android/emulador)
+3. Instale e configure o emulador Genymotion: [Configurando Emulador](/ambiente-react-native/android/emulador)
 
 <hr>
 
@@ -113,3 +113,7 @@ $ C:\Android\Sdk\tools\bin\sdkmanager  "platform-tools" "platforms;android-27" "
 ```
 
 _\*Aceite todas licenças digitando <kbd>y</kbd> quando necessário._
+
+## Instalando emulador
+
+<a class="link-block" href="/ambiente-react-native/android/emulador"><i class="fab fa-android"></i>Genymotion</a>

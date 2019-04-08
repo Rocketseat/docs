@@ -8,7 +8,7 @@ sidebar_label: Linux
 
 1. Instale NodeJS, JDK e demais dependências: [Instalando dependências](#instalando-dependencias)
 2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android)
-3. Instale e configure o emulador Genymotion: [Configurando Emulador](/docs/android/emulador)
+3. Instale e configure o emulador Genymotion: [Configurando Emulador](/ambiente-react-native/android/emulador)
 
 <hr>
 
@@ -145,3 +145,7 @@ $ ~/Android/Sdk/tools/bin/sdkmanager "platform-tools" "platforms;android-27" "bu
 ```
 
 > Aceite todas licenças digitando <kbd>y</kbd> caso necessário.
+
+## Instalando emulador
+
+<a class="link-block" href="/ambiente-react-native/android/emulador"><i class="fab fa-android"></i>Genymotion</a>
