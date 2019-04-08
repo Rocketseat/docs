@@ -28,6 +28,8 @@ const siteConfig = {
     algoliaOptions: {} // Optional, if provided by Algolia
   },
 
+  cname: 'docs.rocketseat.dev',
+
   docsUrl: '',
 
   stylesheets: [
@@ -52,6 +54,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { page: 'contribua', label: 'Contribua' },
     { page: 'comunidade', label: 'Comunidade' }
     // { doc: 'ambiente-react-native/ambiente/introducao', label: 'Docs' }
   ],

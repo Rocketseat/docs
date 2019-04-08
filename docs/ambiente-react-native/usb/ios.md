@@ -22,4 +22,4 @@ Com o seu certificado pronto, clique no seu projeto na barra lateral esquerda. N
 
 Bom, se tudo ocorreu bem até aqui, seu device aparecerá na barra de ferramentas do Xcode. Também será listado no painel **Devices** (<kbd>⇧ + ⌘ + 2</kbd>). Para rodar a aplicação, basta clicar em **Build and run** (<kbd>⌘ + R</kbd>) e aguardar.
 
-![](https://facebook.github.io/react-native/docs/assets/RunningOnDeviceReady.png)
+![](assets/ambiente-react-native/usb/ios/3.png)

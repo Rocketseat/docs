@@ -1,18 +1,24 @@
-/* your custom css */
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+@media only screen and (max-width: 735px) {
+  .navSearchWrapper.reactNavSearchWrapper {
+    display: none !important;
+  }
+  ul.nav-site {
+    width: 100%;
+    justify-content: flex-end !important;
+  }
 }
 
 @media only screen and (max-width: 560px) {
-  nav.slidingNav {
-    left: initial !important;
-  }
   li.navSearchWrapper.reactNavSearchWrapper {
     display: none;
   }
-}
-
-@media only screen and (min-width: 1024px) {
+  ul.nav-site.nav-site-internal {
+    display: none;
+  }
+  .navigationSlider .slidingNav ul {
+    margin-top: 6px !important;
+    justify-content: right;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -28,11 +34,11 @@
   .navigationSlider .slidingNav ul {
     background: white;
     margin-top: 6px;
+    justify-content: center;
   }
-}
 
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (min-width: 1500px) {
+  .navigationSlider .slidingNav ul li {
+    display: flex;
+    flex: 0;
+  }
 }
