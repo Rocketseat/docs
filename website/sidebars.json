@@ -16,8 +16,8 @@
       "ambiente-react-native/usb/ios"
     ],
     "Emulando via Wi-Fi": [
-      "ambiente-react-native/emulate/android",
-      "ambiente-react-native/emulate/ios"
+      "ambiente-react-native/wifi/android",
+      "ambiente-react-native/wifi/ios"
     ],
     "Erros comuns": [
       "ambiente-react-native/errors/android",
