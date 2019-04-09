@@ -22,8 +22,8 @@ const users = [
 
 const siteConfig = {
   algolia: {
-    apiKey: 'c8e36ac20fe699654da4aeda3e2bc4e9',
-    indexName: 'Rocketseat Docs',
+    apiKey: 'a2d7ddd911b6ff2441d893713bfb2cea',
+    indexName: 'rocketseat',
     placeholder: 'Buscar',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
