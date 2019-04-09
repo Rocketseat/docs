@@ -11,7 +11,7 @@ const CompLibrary = require('../../core/CompLibrary.js')
 
 const Container = CompLibrary.Container
 
-const Comunidade = props => (
+const Contribua = props => (
   <div className="docMainWrapper wrapper">
     <Container className="mainContainer">
       <div
@@ -70,4 +70,4 @@ const Comunidade = props => (
   </div>
 )
 
-module.exports = Comunidade
+module.exports = Contribua

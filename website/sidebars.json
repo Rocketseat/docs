@@ -11,7 +11,10 @@
       "ambiente-react-native/android/emulador"
     ],
     "iOS": ["ambiente-react-native/ios/xcode"],
-    "Emulando via USB": ["ambiente-react-native/usb/ios"],
+    "Emulando via USB": [
+      "ambiente-react-native/usb/android",
+      "ambiente-react-native/usb/ios"
+    ],
     "Emulando via Wi-Fi": [
       "ambiente-react-native/emulate/android",
       "ambiente-react-native/emulate/ios"
