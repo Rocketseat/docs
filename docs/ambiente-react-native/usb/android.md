@@ -30,7 +30,7 @@ Com isso configurado abra o terminal/prompt e execute o comando `adb devices`, o
 
 ```bash
 List of devices attached
-14ed2fcc device # Physical device
+14ed2fcc device # Dispositivo físico
 ```
 
 Se estiver escrito **device** ao lado do ID do dispositivo significa que ele está pronto para rodar a aplicação. Nesse ponto basta executar o comando abaixo e aguardar a aplicação ser instalada no seu dispositivo.
