@@ -65,8 +65,22 @@ Depois disso ele irá te pedir um nome para o emulador, coloque o que preferir o
 
 Com dois cliques em cima do Emulador agora será possível executar o ambiente Android. Caso você receba algum erro durante esse processo recomendo executar a máquina virtual do Android diretamente pelo VirtualBox pois dessa forma você terá o log de inicialização do ambiente que conterá qualquer possível erro.
 
-Com o emulador aberto você pode realizar o run do React Native para Android através da pasta do seu projeto.
+## Conectar emulador ao ADB (Android Debug Bridge)
+
+A última etapa é conectar o emulador ao ADB, pelo IP do dispositivo. Para verificar o IP do dispositivo, basta esticar a janela do emulador, o IP estará no título da janela.
+
+No terminal rode o comando:
 
 ```console
-$ react-native run-android
+$ adb connect IP_DO_SEU_EMULADOR:5555
 ```
+
+Logo após, rode:
+
+```console
+$ adb devices
+```
+
+Se aparecer o nome do seu dispositivo na lista, **seu emulador foi conectado com sucesso!**
+
+Com o emulador aberto, basta rodar `react-native run-android` na pasta do seu projeto.
