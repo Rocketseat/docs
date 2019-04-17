@@ -28,9 +28,9 @@ Abra o **Terminal** e execute o comando `ifconfig`, o resultado deve ser uma lis
 
 Vá até **Preferências do Sistema** depois entre na opção **Rede**. Na tela que for aberta o IP já deve estar aparecendo.
 
-Agora que você já tem acesso ao IP da sua máquina, abra a aplicação no dispositivo físico (se não estiver aberta), em seguida chacoalhe o dispositivo para abrir o **Developer Menu**, com ele aberto selecione a opção **Dev Settings**, dentro das configurações selecione a opção **Debug server host & port for device**.
-
 ---
+
+Agora que você já tem acesso ao IP da sua máquina, abra a aplicação no dispositivo físico (se não estiver aberta), em seguida chacoalhe o dispositivo para abrir o **Developer Menu**, com ele aberto selecione a opção **Dev Settings**, dentro das configurações selecione a opção **Debug server host & port for device**.
 
 No modal que abriu insira o IP da sua máquina, que foi obtido anteriormente, seguido da porta **8081**, por exemplo:
 
