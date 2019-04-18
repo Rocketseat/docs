@@ -4,7 +4,7 @@ title: Android
 sidebar_label: Android
 ---
 
-![](assets/android.png)
+![](assets/ambiente-react-native/Android.png)
 
 Primeiramente conecte seu dispositivo via USB.
 

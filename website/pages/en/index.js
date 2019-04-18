@@ -45,6 +45,12 @@ const Docs = [
     title: 'ReactJS Snippets',
     icon: 'fas fa-code',
     description: 'ReactJS snippets para o editor Visual Studio Code'
+  },
+  {
+    path: 'dual-boot-windows-linux',
+    title: 'Dual Boot Windows + Linux',
+    icon: 'fab fa-linux',
+    description: 'Instale Windows e Linux na mesma máquina'
   }
 ]
 

@@ -4,7 +4,7 @@ title: Windows
 sidebar_label: Windows
 ---
 
-![Windows](assets/windows.png)
+![Windows](assets/ambiente-react-native/Windows.png)
 
 1. Instale o Chocolatey e as demais dependências: [Instalando chocolatey](#chocolatey)
 2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android-no-windows)

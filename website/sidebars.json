@@ -59,5 +59,12 @@
       "reactjs-snippets/como-usar",
       "reactjs-snippets/snippets"
     ]
+  },
+  "dual-boot-windows-linux": {
+    "Dual Boot Windows + Linux": [
+      "dual-boot-windows-linux/introducao",
+      "dual-boot-windows-linux/ubuntu",
+      "dual-boot-windows-linux/mint"
+    ]
   }
 }

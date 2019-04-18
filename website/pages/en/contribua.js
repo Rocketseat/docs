@@ -45,6 +45,17 @@ const Contribua = props => (
             Crie uma branch para a sua contribuição. Exemplo:{' '}
             <code>git checkout -b contribuicao/MinhaContribuicao</code>
           </li>
+
+          <li>
+            Para iniciar o servidor das documentações, rode:{' '}
+            <code>cd website && npm start</code>
+          </li>
+
+          <li>
+            Os arquivos das documentações estão em{' '}
+            <code>/docs/[documentacao]</code>. Procure pelo arquivo .md
+          </li>
+
           <li>
             Adicione suas mudanças: <code>git add .</code>
           </li>

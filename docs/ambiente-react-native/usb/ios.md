@@ -4,7 +4,7 @@ title: iOS
 sidebar_label: iOS
 ---
 
-![](assets/ios.png)
+![](assets/ambiente-react-native/iOS.png)
 
 Conecte seu dispositivo via USB.
 

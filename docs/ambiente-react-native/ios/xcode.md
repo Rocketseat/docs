@@ -4,7 +4,7 @@ title: macOS
 sidebar_label: macOS
 ---
 
-![Xcode](assets/xcode.png)
+![Xcode](assets/ambiente-react-native/macOS.png)
 
 Para configurar o ambiente de iOS no OS X basta ter instalado o Xcode no sistema. Caso você ainda não tenha instalado, você pode baixar o mesmo pelo link https://developer.apple.com/xcode/
 

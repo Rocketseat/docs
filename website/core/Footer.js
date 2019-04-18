@@ -29,6 +29,10 @@ class Footer extends React.Component {
       {
         label: 'ReactJS Snippets',
         path: 'reactjs-snippets/introducao'
+      },
+      {
+        label: 'Dual Boot Windows + Linux',
+        path: 'dual-boot-windows-linux/introducao'
       }
     ],
     more: [

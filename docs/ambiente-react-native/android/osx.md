@@ -4,7 +4,7 @@ title: macOS
 sidebar_label: macOS
 ---
 
-![macOS](assets/osx.png)
+![macOS](assets/ambiente-react-native/macOS-Android.png)
 
 1. Instale NodeJS, JDK e demais dependências: [Instalando dependências](#instalando-dependencias)
 2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android)
