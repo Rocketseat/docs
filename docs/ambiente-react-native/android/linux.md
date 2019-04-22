@@ -7,7 +7,7 @@ sidebar_label: Linux
 ![Linux](assets/ambiente-react-native/Linux.png)
 
 1. Instale NodeJS, JDK e demais dependências: [Instalando dependências](#instalando-dependencias)
-2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android)
+2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android-no-linux)
 3. Instale e configure o emulador Genymotion: [Configurando Emulador](/ambiente-react-native/android/emulador)
 
 <hr>
