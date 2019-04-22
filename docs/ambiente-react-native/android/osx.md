@@ -14,7 +14,7 @@ sidebar_label: macOS
 
 ## Instalando dependências
 
-> Para configurar o ambiente Android no Linux, vamos precisar instalar 3 dependências: **Node, Watchman, JDK**. Para boa parte desses pacotes utilizaremos o Homebrew para instalação.
+> Para configurar o ambiente Android no macOS, vamos precisar instalar 3 dependências: **Node, Watchman, JDK**. Para boa parte desses pacotes utilizaremos o Homebrew para instalação.
 
 ### Instalando Homebrew
 
