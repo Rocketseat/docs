@@ -84,10 +84,3 @@ $ adb devices
 Se aparecer o nome do seu dispositivo na lista, **seu emulador foi conectado com sucesso!**
 
 Com o emulador aberto, basta rodar `react-native run-android` na pasta do seu projeto.
-
-const appointments = await Appointment.findAll({
-where: { provider_id: req.params.provider },
-date: {
-[Op.between]: [date.startOf('day').format(), date.endOf('day').format()]
-}
-})
