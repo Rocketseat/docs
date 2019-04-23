@@ -7,14 +7,14 @@ sidebar_label: macOS
 ![macOS](assets/ambiente-react-native/macOS-Android.png)
 
 1. Instale NodeJS, JDK e demais dependências: [Instalando dependências](#instalando-dependencias)
-2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android)
+2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android-no-macos)
 3. Instale e configure o emulador Genymotion: [Configurando Emulador](/ambiente-react-native/android/emulador)
 
 <hr>
 
 ## Instalando dependências
 
-> Para configurar o ambiente Android no Linux, vamos precisar instalar 3 dependências: **Node, Watchman, JDK**. Para boa parte desses pacotes utilizaremos o Homebrew para instalação.
+> Para configurar o ambiente Android no macOS, vamos precisar instalar 3 dependências: **Node, Watchman, JDK**. Para boa parte desses pacotes utilizaremos o Homebrew para instalação.
 
 ### Instalando Homebrew
 
