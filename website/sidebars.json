@@ -31,7 +31,9 @@
     "Começando": [
       "react-native-template-basic/start/requisitos",
       "react-native-template-basic/start/estrutura",
-      "react-native-template-basic/start/instalacao"
+      "react-native-template-basic/start/instalacao",
+      "react-native-template-basic/start/edicao",
+      "react-native-template-basic/start/publicacao"
     ]
   },
   "react-native-template-advanced": {
@@ -41,7 +43,9 @@
     "Começando": [
       "react-native-template-advanced/start/requisitos",
       "react-native-template-advanced/start/estrutura",
-      "react-native-template-advanced/start/instalacao"
+      "react-native-template-advanced/start/instalacao",
+      "react-native-template-advanced/start/edicao",
+      "react-native-template-basic/start/publicacao"
     ]
   },
   "react-native-snippets": {
