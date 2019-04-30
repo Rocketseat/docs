@@ -12,6 +12,7 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |                `rnrc →` | Cria um Componente **Stateful** conectado ao **Redux**                        |
 |                `rnsc →` | Cria um Componente **Stateless**                                              |
 |               `rnrsc →` | Cria um Componente **Stateless** conectado ao **Redux**                       |
+|                 `rfc →` | Cria um Componente **Funcional**                                              |
 |           `styled-rn →` | Cria um arquivo de Estilização com **Styled Components**                      |
 |                 `api →` | Cria um arquivo de configuração do Axios                                      |
 |     `mapstatetoprops →` | Cria o método `mapStateToProps` vazio                                         |
