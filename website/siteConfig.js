@@ -38,7 +38,7 @@ const siteConfig = {
   ],
 
   title: 'Rocketseat Docs', // Title for your website.
-  tagline: 'Documentação oficial dos projetos da Rocketseat',
+  tagline: 'Documentação de guias da Rocketseat',
   //url: 'https://rocketseat.com.br', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
