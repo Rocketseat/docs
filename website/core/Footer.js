@@ -15,22 +15,6 @@ class Footer extends React.Component {
         path: 'ambiente-react-native/introducao'
       },
       {
-        label: 'React Native Template Basic',
-        path: 'react-native-template-basic/introducao'
-      },
-      {
-        label: 'React Native Template Advanced',
-        path: 'react-native-template-advanced/introducao'
-      },
-      {
-        label: 'React Native Snippets',
-        path: 'react-native-snippets/introducao'
-      },
-      {
-        label: 'ReactJS Snippets',
-        path: 'reactjs-snippets/introducao'
-      },
-      {
         label: 'Dual Boot Windows + Linux',
         path: 'dual-boot-windows-linux/introducao'
       }

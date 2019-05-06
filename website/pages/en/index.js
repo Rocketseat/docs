@@ -21,32 +21,6 @@ const Docs = [
     description: 'Prepare seu ambiente para desenvolver aplicações nativas'
   },
   {
-    path: 'react-native-template-basic',
-    title: 'React Native Template Basic',
-    icon: 'fab fa-react',
-    description:
-      'Template básica para aplicações React Native com a estrutura utilizada na Rocketseat'
-  },
-  {
-    path: 'react-native-template-advanced',
-    title: 'React Native Template Advanced',
-    icon: 'fab fa-react',
-    description:
-      'Template avançada para aplicações React Native com a estrutura utilizada na Rocketseat'
-  },
-  {
-    path: 'react-native-snippets',
-    title: 'React Native Snippets',
-    icon: 'fas fa-code',
-    description: 'React Native snippets para o editor Visual Studio Code'
-  },
-  {
-    path: 'reactjs-snippets',
-    title: 'ReactJS Snippets',
-    icon: 'fas fa-code',
-    description: 'ReactJS snippets para o editor Visual Studio Code'
-  },
-  {
     path: 'dual-boot-windows-linux',
     title: 'Dual Boot Windows + Linux',
     icon: 'fab fa-linux',

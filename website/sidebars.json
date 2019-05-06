@@ -26,42 +26,6 @@
       "ambiente-react-native/errors/genymotion"
     ]
   },
-  "react-native-template-basic": {
-    "React Native Template Basic": ["react-native-template-basic/introducao"],
-    "Começando": [
-      "react-native-template-basic/start/requisitos",
-      "react-native-template-basic/start/estrutura",
-      "react-native-template-basic/start/instalacao",
-      "react-native-template-basic/start/publicacao"
-    ]
-  },
-  "react-native-template-advanced": {
-    "React Native Template Advanced": [
-      "react-native-template-advanced/introducao"
-    ],
-    "Começando": [
-      "react-native-template-advanced/start/requisitos",
-      "react-native-template-advanced/start/estrutura",
-      "react-native-template-advanced/start/instalacao",
-      "react-native-template-advanced/start/publicacao"
-    ]
-  },
-  "react-native-snippets": {
-    "React Native Snippets": [
-      "react-native-snippets/introducao",
-      "react-native-snippets/instalacao",
-      "react-native-snippets/como-usar",
-      "react-native-snippets/snippets"
-    ]
-  },
-  "reactjs-snippets": {
-    "ReactJS Snippets": [
-      "reactjs-snippets/introducao",
-      "reactjs-snippets/instalacao",
-      "reactjs-snippets/como-usar",
-      "reactjs-snippets/snippets"
-    ]
-  },
   "dual-boot-windows-linux": {
     "Dual Boot Windows + Linux": [
       "dual-boot-windows-linux/introducao",
