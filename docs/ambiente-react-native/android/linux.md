@@ -134,6 +134,7 @@ Com esse endereço precisamos configurar algumas variáveis ambiente em nosso si
 $ export ANDROID_HOME=~/Android/Sdk
 $ export PATH=$PATH:$ANDROID_HOME/tools
 $ export PATH=$PATH:$ANDROID_HOME/platform-tools
+$ export PATH=$PATH:$ANDROID_HOME/build-tools
 ```
 
 > Se nenhum desses arquivos existir, crie o `~/.bash_profile`. Caso esteja utilizando uma pasta diferente para a SDK do Android, altere acima.
