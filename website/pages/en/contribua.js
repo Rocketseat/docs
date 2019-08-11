@@ -48,7 +48,7 @@ const Contribua = props => (
 
           <li>
             Para iniciar o servidor das documentações, rode:{' '}
-            <code>cd website && npm start</code>
+            <code>cd website && npm install && npm start</code>
           </li>
 
           <li>
