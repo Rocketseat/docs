@@ -22,3 +22,24 @@ $ ../../ios-configure-glog.sh
 ```
 
 Depois disso, volte à pasta do seu projeto e rode `react-native run-ios` (pode ser necessário rodar duas vezes)
+
+### Could not parse the simulator list output
+
+Esse erro geralmente acontece quando executamos o comando:
+
+```sh
+react-native run-ios
+```
+
+O motivo é que o xcode não está atualizado.
+Para resolver este problema tente executar o seguinte comando:
+
+```sh
+brew upgrade
+```
+
+Depois que atualizar tente rodar novamente:
+
+```sh
+react-native run-ios
+```
