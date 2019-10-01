@@ -27,7 +27,7 @@ Esse erro pode acontecer por muitos motivos, mas na maioria das vezes é algum c
 Para resolver execute na pasta do seu projeto:
 
 ```sh
-$ cd android && gradlew clean cd .. && react-native run-android
+$ cd android && gradlew clean && cd .. && react-native run-android
 ```
 
 ### Erros ao tentar ativar o JDK ou inicializar o projeto React Native
