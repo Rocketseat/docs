@@ -25,21 +25,4 @@ Depois disso, volte à pasta do seu projeto e rode `react-native run-ios` (pode 
 
 ### Could not parse the simulator list output
 
-Esse erro geralmente acontece quando executamos o comando:
-
-```sh
-react-native run-ios
-```
-
-O motivo é que o xcode não está atualizado.
-Para resolver este problema tente executar o seguinte comando:
-
-```sh
-brew upgrade
-```
-
-Depois que atualizar tente rodar novamente:
-
-```sh
-react-native run-ios
-```
+Esse erro acontece quando o React Native não consegue rodar a aplicação no simulador do xcode, pois o xcode está desatualizado. A solução é atualizar o xcode pela Apple Store.
