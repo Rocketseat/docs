@@ -22,7 +22,8 @@ class Footer extends React.Component {
     more: [
       { label: 'Comunidade', path: 'https://www.rocketseat.com.br/comunidade' },
       { label: 'Cursos gratuitos', path: 'https://rocketseat.com.br/starter' },
-      { label: 'Github', path: 'https://github.com/rocketseat' }
+      { label: 'Github', path: 'https://github.com/rocketseat' },
+      { label: 'Youtube', path: 'https://www.youtube.com/rocketseat' }
     ]
   }
 
