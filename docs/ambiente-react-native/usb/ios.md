@@ -8,7 +8,15 @@ sidebar_label: iOS
 
 Conecte seu dispositivo via USB.
 
-No seu projeto React Native, acesse o diretório `ios`. Nesse diretório existe o arquivo `SEU_APP.xcodeproj`, que é gerado automaticamente na inicialização do seu projeto. Abra esse arquivo.
+### Projeto sem CocoaPods
+
+No seu projeto React Native, acesse o diretório `ios`. Nesse diretório existe o arquivo `SEU_APP.xcodeproj` que é gerado automaticamente na inicialização do seu projeto. Abra esse arquivo.
+
+### Projeto com CocoaPods
+
+No seu projeto React Native, acesse o diretório `ios`. Nesse diretório existe o arquivo `SEU_APP.xcworkspace` que é gerado automaticamente na inicialização do seu projeto. Abra esse arquivo.
+
+Se tentar emular utilizando o `SEU_APP.xcodeproj` o Xcode não conseguirá encontrar algumas libs que foram instaladas utilizando o CocoaPods.
 
 ![](assets/ambiente-react-native/usb/ios/1.png)
 
