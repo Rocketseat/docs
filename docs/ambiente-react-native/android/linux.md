@@ -71,6 +71,74 @@ Caso possua outras versões do java, pode selecionar a versão 8 como padrão us
 $ sudo update-alternatives --config java
 ```
 
+#### Instalação Alternativa: SDKMAN
+
+O [SDKMAN!](https://sdkman.io/) é uma ferramenta para gerenciar versões paralelas de vários SDKs na maioria dos sistemas baseados em Unix. Ele fornece uma interface de linha de comand (CLI) conveniente e uma API para instalar, alternar, remover e listar candidatos. 
+
+Para instalar o SDKMAN, basta abrir um terminal e digitar:
+
+```console
+$ curl -s "https://get.sdkman.io" | bash
+```
+
+Siga as instruções na tela e complete a instalação. 
+
+Depois, abra um novo terminal, ou digite:
+
+```console
+$ source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
+
+Por último, você pode checar a instalação com o seguinte comando: 
+
+```console
+$ sdk version
+```
+Se tudo deu certo, uma versão do programa deve aparecer. Algo como: 
+
+```console
+sdkman 5.0.0+51
+```
+#### Utilizando SDKMAN para instalar o JDK
+
+Com o SDKMAN instalado, podemos listar as versões disponíveis utilizando o seguinte comando:
+
+```console
+sdk list java 
+```
+
+Uma lista com todas as versões disponíveis deve aparecer, tal como a figura abaixo.
+
+![javaVersionList](assets/ambiente-react-native/android/javaVersionList.png)
+
+Escolha uma versão, neste caso recomenda-se a versão 8 mais atualizada da dist zulu (exemplo: 8.0.242-zulu). 
+
+Após isso, podemos instalar o pacote JDK utilizando o comando: 
+
+```console
+$ sdk install java <versão_escolhida>
+```
+
+No fim da instalação, você será questionado se deseja usar a versão recentemente instalada como versão padrão para os próximos projetos. 
+
+Independente da sua escolha, você pode mudar a versão do seu JDK temporariamente (enquanto o terminal estiver aberto) utilizando o comando: 
+
+```console
+sdk use java <versão_escolhida>
+```
+
+Ou mudar a versão padrão com o comando 
+
+```console
+sdk default java <versão_escolhida>
+```
+
+Podemos novamente checar se a instalação do java foi bem sucessida com o comando 
+
+```console
+$ java -version
+```
+
 #### Instalando libs gráficas
 
 Em grande parte das vezes precisamos instalar algumas bibliotecas da versão 32bits do Linux para conseguir emular nosso projeto e para isso vamos utilizar o seguinte comando:
