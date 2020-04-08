@@ -119,7 +119,7 @@ $ C:\Android\Sdk\tools\bin\sdkmanager  "platform-tools" "platforms;android-27" "
 *PowerShell*
 
 ```console
-$ PS C:\Android\Sdk\tools\bin> .\sdkmanager.bat  "platform-tools" "platforms;android-27" "build-tools;27.0.3"
+$ PS C:\Android\Sdk\tools\bin> .\sdkmanager.bat --sdk_root=${ANDROID_HOME} "platform-tools" "platforms;android-27" "build-tools;27.0.3"
 ```
 
 _\*Aceite todas licenças digitando <kbd>y</kbd> quando necessário._
