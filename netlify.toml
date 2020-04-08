@@ -1,0 +1,10 @@
+[build]
+  base = "website/"
+  publish = "website/build/"
+  command = "npm install; npm run build;"
+
+[[redirects]]
+  from = "/ambiente-react-native/*"
+  to = "https://react-native.rocketseat.dev"
+  status = 301
+  force = true
