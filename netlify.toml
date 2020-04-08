@@ -1,7 +1,7 @@
 [build]
   base = "website/"
   publish = "build/"
-  command = "npm install; npm run build;"
+  command = "npm run build;"
 
 [[redirects]]
   from = "/ambiente-react-native/*"

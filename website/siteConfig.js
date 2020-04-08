@@ -37,10 +37,8 @@ const siteConfig = {
 
   title: "Rocketseat Docs", // Title for your website.
   tagline: "Documentação de guias da Rocketseat",
-  //url: 'https://rocketseat.com.br', // Your website URL
-  baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
-  url: "https://rocketseat.github.io",
+  url: "https://docs-rocketseat.netlify.com/",
   baseUrl: "/",
 
   // Used for publishing and more
