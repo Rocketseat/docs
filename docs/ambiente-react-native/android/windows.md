@@ -4,7 +4,19 @@ title: Windows
 sidebar_label: Windows
 ---
 
-![Windows](assets/ambiente-react-native/Windows.png)
+<!-- ![Windows](assets/ambiente-react-native/Windows.png) -->
+
+<div class="callout">
+  <h2>
+    <i class="fa fa-exclamation-triangle"></i>
+    A documentação de React Native mudou!
+  </h2>
+  <p>
+    Agora ela está disponível em outro local.
+    <a href="http://react-native.rocketseat.dev/" rel="noopener noreferrer">Clique
+    aqui para acessar!</a>
+  </p>
+</div>
 
 1. Instale o Chocolatey e as demais dependências: [Instalando chocolatey](#chocolatey)
 2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android-no-windows)
@@ -110,13 +122,13 @@ Na mesma janela de "Variáveis de ambiente" no Windows, clique na variável PATH
 
 Agora, abra seu Command Prompt ou PowerShell como administrador e execute o seguinte comando:
 
-*Command Prompt*
+_Command Prompt_
 
 ```console
 $ C:\Android\Sdk\tools\bin\sdkmanager  "platform-tools" "platforms;android-27" "build-tools;27.0.3"
 ```
 
-*PowerShell*
+_PowerShell_
 
 ```console
 $ PS C:\Android\Sdk\tools\bin> .\sdkmanager.bat  "platform-tools" "platforms;android-27" "build-tools;27.0.3"

@@ -4,7 +4,19 @@ title: Android
 sidebar_label: Android
 ---
 
-![](assets/android.png)
+<!-- ![](assets/android.png) -->
+
+<div class="callout">
+  <h2>
+    <i class="fa fa-exclamation-triangle"></i>
+    A documentação de React Native mudou!
+  </h2>
+  <p>
+    Agora ela está disponível em outro local.
+    <a href="http://react-native.rocketseat.dev/" rel="noopener noreferrer">Clique
+    aqui para acessar!</a>
+  </p>
+</div>
 
 O primeiro passo é verificar se seu dispositivo está configurado corretamente para receber uma aplicação instalada via USB, para isso verifique [**aqui**](https://docs.rocketseat.dev/ambiente-react-native/usb/android) se você já seguiu esses passos.
 

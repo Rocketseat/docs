@@ -11,51 +11,47 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'Rocketseat',
+    caption: "Rocketseat",
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/logo-rocketseat.svg',
-    infoLink: 'https://www.rocketseat.com.br',
-    pinned: true
-  }
-]
+    image: "/img/logo-rocketseat.svg",
+    infoLink: "https://www.rocketseat.com.br",
+    pinned: true,
+  },
+];
 
 const siteConfig = {
   algolia: {
-    apiKey: 'a2d7ddd911b6ff2441d893713bfb2cea',
-    indexName: 'rocketseat',
-    placeholder: 'Buscar',
-    algoliaOptions: {} // Optional, if provided by Algolia
+    apiKey: "a2d7ddd911b6ff2441d893713bfb2cea",
+    indexName: "rocketseat",
+    placeholder: "Buscar",
+    algoliaOptions: {}, // Optional, if provided by Algolia
   },
 
-  cname: 'docs.rocketseat.dev',
-
-  docsUrl: '',
+  docsUrl: "",
 
   stylesheets: [
-    'https://fonts.googleapis.com/css?family=Noto+Sans:400,700',
-    'https://use.fontawesome.com/releases/v5.8.1/css/all.css'
+    "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+    "https://use.fontawesome.com/releases/v5.8.1/css/all.css",
   ],
 
-  title: 'Rocketseat Docs', // Title for your website.
-  tagline: 'Documentação de guias da Rocketseat',
-  //url: 'https://rocketseat.com.br', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  title: "Rocketseat Docs", // Title for your website.
+  tagline: "Documentação de guias da Rocketseat",
   // For github.io type URLs, you would set the url and baseUrl like:
-  url: 'https://rocketseat.github.io',
-  baseUrl: '/',
+  url: "https://docs-rocketseat.netlify.com/",
+  baseUrl: "/",
 
   // Used for publishing and more
-  projectName: 'docs',
-  organizationName: 'rocketseat',
+  projectName: "docs",
+  organizationName: "rocketseat",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { page: 'contribua', label: 'Contribua' },
-    { page: 'comunidade', label: 'Comunidade' }
+    { page: "contribua", label: "Contribua" },
+    { page: "comunidade", label: "Comunidade" },
     // { doc: 'ambiente-react-native/ambiente/introducao', label: 'Docs' }
   ],
 
@@ -63,14 +59,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo.svg',
-  footerIcon: 'img/logo-white.svg',
-  favicon: 'img/favicon.png',
+  headerIcon: "img/logo.svg",
+  footerIcon: "img/logo-white.svg",
+  favicon: "img/favicon.png",
 
   /* Colors for website */
   colors: {
-    primaryColor: '#7159c1',
-    secondaryColor: '#6C4FBB'
+    primaryColor: "#7159c1",
+    secondaryColor: "#6C4FBB",
   },
 
   /* Custom fonts for website */
@@ -92,24 +88,24 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'dracula'
+    theme: "dracula",
   },
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
-    'https://buttons.github.io/buttons.js',
-    'https://unpkg.com/feather-icons',
-    '/js/script.js'
+    "https://buttons.github.io/buttons.js",
+    "https://unpkg.com/feather-icons",
+    "/js/script.js",
   ],
 
   // On page navigation for the current documentation page.
-  onPageNav: 'separate',
+  onPageNav: "separate",
   // No .html extensions for paths.
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/logo-rocketseat.svg',
-  twitterImage: 'img/logo-rocketseat.svg'
+  ogImage: "img/logo-rocketseat.svg",
+  twitterImage: "img/logo-rocketseat.svg",
 
   //docsSideNavCollapsible: true
 
@@ -122,6 +118,6 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
-}
+};
 
-module.exports = siteConfig
+module.exports = siteConfig;

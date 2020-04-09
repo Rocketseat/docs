@@ -1,1 +1,5 @@
-[![Build Status](https://travis-ci.org/Rocketseat/docs.svg?branch=master)](https://travis-ci.org/Rocketseat/docs)
+# Docs
+
+Documentação de projetos open-source da Rocketseat!
+
+> **A documentação de React Native mudou e agora está em um novo domínio, disponível [nesse link](http://react-native.rocketseat.dev/).**

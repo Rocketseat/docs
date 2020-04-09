@@ -4,7 +4,19 @@ title: Emulador
 sidebar_label: Emulador
 ---
 
-![Genymotion](assets/ambiente-react-native/Emulador.png)
+<!-- ![Genymotion](assets/ambiente-react-native/Emulador.png) -->
+
+<div class="callout">
+  <h2>
+    <i class="fa fa-exclamation-triangle"></i>
+    A documentação de React Native mudou!
+  </h2>
+  <p>
+    Agora ela está disponível em outro local.
+    <a href="http://react-native.rocketseat.dev/" rel="noopener noreferrer">Clique
+    aqui para acessar!</a>
+  </p>
+</div>
 
 Utilizaremos o Genymotion como emulador do Android. Escolhi o Genymotion pelo fato de ser mais estável e rápido, mas você pode escolher utilizar o emulador do Android Studio.
 
