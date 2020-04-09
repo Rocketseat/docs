@@ -4,7 +4,19 @@ title: iOS
 sidebar_label: iOS
 ---
 
-![](assets/ambiente-react-native/iOS.png)
+<!-- ![](assets/ambiente-react-native/iOS.png) -->
+
+<div class="callout">
+  <h2>
+    <i class="fa fa-exclamation-triangle"></i>
+    A documentação de React Native mudou!
+  </h2>
+  <p>
+    Agora ela está disponível em outro local.
+    <a href="http://react-native.rocketseat.dev/" rel="noopener noreferrer">Clique
+    aqui para acessar!</a>
+  </p>
+</div>
 
 Conecte seu dispositivo via USB.
 

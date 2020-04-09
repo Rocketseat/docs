@@ -4,7 +4,19 @@ title: macOS
 sidebar_label: macOS
 ---
 
-![macOS](assets/ambiente-react-native/macOS-Android.png)
+<!-- ![macOS](assets/ambiente-react-native/macOS-Android.png) -->
+
+<div class="callout">
+  <h2>
+    <i class="fa fa-exclamation-triangle"></i>
+    A documentação de React Native mudou!
+  </h2>
+  <p>
+    Agora ela está disponível em outro local.
+    <a href="http://react-native.rocketseat.dev/" rel="noopener noreferrer">Clique
+    aqui para acessar!</a>
+  </p>
+</div>
 
 1. Instale NodeJS, JDK e demais dependências: [Instalando dependências](#instalando-dependencias)
 2. Instale e configure a SDK do Android: [Configurando SDK](#configurando-sdk-do-android-no-macos)
