@@ -3,10 +3,6 @@
     "Ambiente React Native": ["ambiente-react-native/introducao"]
   },
   "dual-boot-windows-linux": {
-    "Dual Boot Windows + Linux": [
-      "dual-boot-windows-linux/introducao",
-      "dual-boot-windows-linux/ubuntu",
-      "dual-boot-windows-linux/mint"
-    ]
+    "Dual Boot Windows + Linux": ["dual-boot-windows-linux/introducao"]
   }
 }

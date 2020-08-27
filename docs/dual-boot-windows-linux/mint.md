@@ -4,6 +4,18 @@ title: Linux Mint
 sidebar_label: Linux Mint
 ---
 
+<div class="callout">
+  <h2>
+    <i class="fa fa-exclamation-triangle"></i>
+    A documentação de dual boot mudou!
+  </h2>
+  <p>
+    Agora ela está disponível em outro local.
+    <a href="https://www.notion.so/Ubuntu-20-04-a61bc0eaa4764dec88e55b1f871abbe1" rel="noopener noreferrer">Clique
+    aqui para acessar!</a>
+  </p>
+</div>
+
 Essa será a tela inicial da instalação do Mint. Nesse tutorial iremos instalar a versão em inglês, porém o idioma fica a seu critério.
 
 ![](assets/dual-boot-windows-linux/mint/1.png)

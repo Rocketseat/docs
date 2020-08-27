@@ -4,6 +4,18 @@ title: Introdução
 sidebar_label: Introdução
 ---
 
+<div class="callout">
+  <h2>
+    <i class="fa fa-exclamation-triangle"></i>
+    A documentação de dual boot mudou!
+  </h2>
+  <p>
+    Agora ela está disponível em outro local.
+    <a href="https://www.notion.so/Ubuntu-20-04-a61bc0eaa4764dec88e55b1f871abbe1" rel="noopener noreferrer">Clique
+    aqui para acessar!</a>
+  </p>
+</div>
+
 ![](assets/dual-boot-windows-linux/header.png)
 
 Hoje iremos preparar um ambiente para rodar Windows + Linux no mesmo sistema, utilizando a técnica dual boot.
@@ -61,6 +73,3 @@ Vamos para a parte de instalação. Selecione a distro baixada inicialmente:
 
 <a class="link-block" href="/dual-boot-windows-linux/ubuntu"><i class="fab fa-ubuntu"></i>Ubuntu</a>
 <a class="link-block" href="/dual-boot-windows-linux/mint"><i class="fab fa-linux"></i>Linux Mint</a>
-
-
-
