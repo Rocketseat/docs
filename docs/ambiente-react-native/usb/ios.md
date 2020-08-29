@@ -20,9 +20,13 @@ sidebar_label: iOS
 
 Conecte seu dispositivo via USB.
 
-No seu projeto React Native, acesse o diretório `ios`. Nesse diretório existe o arquivo `SEU_APP.xcodeproj`, que é gerado automaticamente na inicialização do seu projeto. Abra esse arquivo.
+No seu projeto React Native, acesse o diretório `ios`. Nesse diretório existe o arquivo `SEU_APP.xcworkspace` (ou `SEU_APP.xcodeproj` versões do React Native abaixo da `0.61.0`), que é gerado automaticamente na inicialização do seu projeto. Abra esse arquivo.
 
+RN >= 0.61.0
 ![](assets/ambiente-react-native/usb/ios/1.png)
+
+RN < 0.61.0
+![](assets/ambiente-react-native/usb/ios/2.png)
 
 > Se essa é a primeira vez que você está rodando um aplicativo no seu device, talvez seja preciso que você registre o device para desenvolvimento. Pra isso, no menu do Xcode, vá em **Product > Destination > Procure pelo seu device**.
 
