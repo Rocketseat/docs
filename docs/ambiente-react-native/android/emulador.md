@@ -57,7 +57,7 @@ Clique no botão **Settings** e na aba **Account** faça login com sua conta cri
 
 Após realizado login, ainda no menu **Settings**, na aba **ADB** precisamos informar o caminho da nossa SDK do Android
 
-Selecione a opção **Use Custom Android SDK Tools** no Genymotion e utilize o caminho onde você extraiu os arquivos baixados do site do Android anteriormente (Ex.: `C:\Android\Sdk` ou `~/Android/Sdk`).
+Selecione a opção **Use Custom Android SDK Tools** no Genymotion e utilize o caminho onde você extraiu os arquivos baixados do site do Android [anteriormente](ambiente-react-native/android/linux#configurando-sdk-do-android-no-linux) (Ex.: `C:\Android\Sdk` ou `~/Android/Sdk`).
 
 Sua configuração deve ficar parecida com essa:
 
